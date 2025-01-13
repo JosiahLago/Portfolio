@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">PORTFOLIO</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Josiah<br />a</span> UI/UX Designer
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! I'm Josiah, a creative UI/UX designer with a passion for crafting
+             intuitive and visually appealing digital experiences.
+              From personal projects to e-commerce platforms,
+               I specialize in designing user-friendly solutions that
+                combine aesthetics and functionality.
+          </p>
+          <div class="action__btns">
+            <button id="add-project-btn" class="portfolio">Hire me</button>
+            <button id="toggle-theme-btn" class="portfolio">My Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/Group 110.png" alt="Group" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        I'm Josiah, a passionate UI/UX Designer with a focus on creating intuitive and visually appealing digital experiences. 
+        I specialize in bridging the gap between design and functionality to create seamless user experiences.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list">
+        <li>UI/UX Design</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Prototyping Tools</li>
+      </ul>
+      <button id="add-skill-btn" class="portfolio">Add Skill</button>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list">
+        <p>No projects added yet!</p>
+      </div>
+      <button id="add-project-btn" class="portfolio">Add Project</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>Email: josiah@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
