@@ -1,4 +1,4 @@
-// Add new project dynamically
+
 document.getElementById('add-project-btn').addEventListener('click', function () {
     const projectList = document.getElementById('project-list');
     const newProject = document.createElement('div');
@@ -9,7 +9,6 @@ document.getElementById('add-project-btn').addEventListener('click', function ()
     projectList.appendChild(newProject);
   });
   
-  // Toggle light/dark theme
   document.getElementById('toggle-theme-btn').addEventListener('click', function () {
     document.body.classList.toggle('dark-theme');
   });
